@@ -1,111 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Noto+Sans:ital@1&family=Raleway&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     background-color: #fff;
     font-family: 'Lora', serif;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
 
-.navbar{
+.navbar {
     display: flex;
     position: relative;
     font-size: 1.2rem;
 }
-.logo{
+.logo {
     margin-left: 15px;
-    /* display: absolute; */
-    width: 5%;
+    width: 6.5vw;
     height: 10vh;
 }
-.navbar ul{
+.navbar ul {
     margin-top: 2rem;
     margin-left: 10rem;
     display: inline-flex;
     padding-left: 2em;
 }
-.navbar li{
+.navbar li {
     list-style-type: none;
     padding: 1rem;
 }
 
-.navbar a{
+.navbar a {
     color: black;
     text-decoration: none;
 }
 
-.navbar input{
+.navbar input {
     background-color: rgba(128,128,128,0.38);
     margin-left: 15rem;
     width: 20vw;
     height: 4vh;
 }
 
-.banner{
-    /* object-fit: cover; */
+.banner {
     margin-top: 3rem;
     margin-left: 6rem;
     max-width: 100%;
     max-height: auto;
 }
 
-h1{
+h1 {
     margin-top: 1rem;
     margin-left: 2rem;
 }
 
-.block{
+.block {
     padding-left: 1rem;
 }
 
-.content-1{
+.content-1 {
     display: flex;
     align-items: center;
     margin-top: 1.5rem;
     margin-left: 3rem;
 }
 
-.content-2{
+.content-2 {
     display: flex;
     align-items: center;
     margin-top: 1.5rem;
     margin-left: 10rem;
 }
 
-.content-3{
+.content-3 {
     display: flex;
     align-items: center;
     margin-top: 1.5rem;
     margin-left: 10rem;
 }
 
-.content-4{
+.content-4 {
     display: flex;
     align-items: center;
     margin-top: 1.5rem;
     margin-left: 3rem;
 }
 
-.content-5{
+.content-5 {
     display: flex;
     align-items: center;
     margin-top: 1.5rem;
     margin-left: 3rem;
 }
 
-.content-6{
+.content-6 {
     display: flex;
     align-items: center;
     margin-top: 1.5rem;
     margin-left: 3rem;
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,40 +111,125 @@ footer{
     margin-right: 1rem;
 }
 
-footer li{
+footer li {
     list-style-type: none;
 }
 
-h2{
+h2 {
     font-size: 15px;
 }
 
-.bottom-1{
+.bottom-1 {
     margin-bottom: 2rem;
 }
-.bottom-1,.bottom-2,.bottom-3,.bottom-4,.bottom-5{
+.bottom-1,.bottom-2,.bottom-3,.bottom-4,.bottom-5 {
     margin-right: 3rem;
 }
-.bottom-1 a,.bottom-2 a{
+.bottom-1 a,.bottom-2 a {
     text-decoration: none;
 }
-.bottom-3 img{
+.bottom-3 img {
     width: 8vw;
     height: 5vh;
 }
 
-.bottom-4 img{
+.bottom-4 img {
     width: 1.5vw;
     height: 2.5vh;
 }
 
-.bottom-3{
+.bottom-3 {
     margin-top: 6rem;
 }
 
-.bottom-4{
+.bottom-4 {
     margin-top: 2rem;
 }
-.bottom-3,.bottom-4,.bottom-5{
+.bottom-3,.bottom-4,.bottom-5 {
     margin-bottom: 1rem;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.drophover {
+    border: none;
+}
+
+.dropdown-content,.dropdown-content-1,.dropdown-content-2,.dropdown-content-3,.dropdown-content-4,.dropdown-content-5,.dropdown-content-6{
+    display: none;
+    position: absolute;
+    background-color: #D3D3D3;
+    padding: 0.5rem;
+}
+
+.dropdown-content a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content-1 a {
+    color: 	#E80000;
+}
+
+.dropdown-content-2 a {
+    color: #FF00CC;
+}
+
+
+.dropdown-content-3 a {
+    color: #FF6633;
+}
+
+
+.dropdown-content-4 a {
+    color: #993366;
+}
+
+
+.dropdown-content-5 a {
+    color: #33FFFF;
+}
+
+
+.dropdown-content-6 a {
+    color: black;
+}
+
+.dropdown-content a:hover {background-color: #fff;}
+
+.dropdown:hover .dropdown-content,
+.dropdown:hover .dropdown-content-1,
+.dropdown:hover .dropdown-content-2,
+.dropdown:hover .dropdown-content-3,
+.dropdown:hover .dropdown-content-4,
+.dropdown:hover .dropdown-content-5,
+.dropdown:hover .dropdown-content-6
+{display: block;}
+
+.dropdown:hover .drophover {background-color: blanchedalmond;}
+
+.dropdown-content-6 {
+    padding: 0.25rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+.dropdown-content-6 img {
+    padding: 1rem;
+    width: 600px;
+    height: auto;
+    object-fit: contain;
+}
+
+.dropdown-content-6 button {
+    width: 30%;
+    height: 2.5rem;
+    margin-bottom: 0.55rem;
+}
+
+.info a {
+    width: 70%;
+    padding: 1rem;
 }
