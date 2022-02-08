@@ -52,6 +52,58 @@
             width: 20vw;
             height: 4vh;
         }
+
+        h1,p {
+            margin-left: 2rem;
+            margin-top: 1rem;
+        }
+
+        p{
+            margin-bottom: 2rem;
+        }
+
+        .main {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-gap: 40px;
+        }
+
+        .sidebar {
+            margin-left: 1rem;
+            margin-right: 0.5rem;
+            font-size: 1.35rem;
+        }
+
+        input[type="checkbox"] { 
+            margin-right: 0.5rem; 
+        }
+
+        .box {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        .content-1 {
+            width: 30%;
+            height: 55vh;
+            margin-left: 20px;
+            padding: 30px;
+            border: 1px solid black;
+        }
+
+        .content-1 img {
+            object-fit: contain;
+        }
+
+        .content-1 p,h1 {
+            font-size: 1.6rem;
+            margin-left: 2rem;
+        }
+        hr {
+            width: 15vw;
+        }
+
         footer {
             display: flex;
             align-items: center;
@@ -182,7 +234,7 @@
             margin-bottom: 0.55rem;
         }
 
-        .info a{ 
+        .info a {  
             width: 70%;
             padding: 1rem;
         }
@@ -291,6 +343,102 @@
                     <a href="bag.html"><li class="nav-right">Bag</li></a>
                 </div>
             </ul>
+        </div>
+        <h1>Home / Personal Care</h1>
+        <p>Personal Care - 41158</p>
+        <div class="main">
+            <div class="sidebar">
+                <label for="filters">FILTERS</label><br>
+                <input type="checkbox" class="check" id="men">Men <br>
+                <input type="checkbox" class="check" id="women">Women <br>
+                <input type="checkbox" class="check" id="boys">Boys<br>
+                <input type="checkbox" class="check" id="girls">Girls <br>
+                <hr>
+                <label for="categories">CATEGORIES</label><br>
+                <input type="checkbox" class="check" id="">Perfume and Body Mist
+                <span>(3849)</span><br>
+                <input type="checkbox" class="check" id="">Lipstick
+                <span>(3448)</span><br>
+                <input type="checkbox" class="check" id="">Body Wash and Scrub
+                <span>(2233)</span><br>
+                <input type="checkbox" class="check" id="">Shampoo and Conditioner
+                <span>(1993)</span><br>
+                <input type="checkbox" class="check" id="">Nail Polish
+                <span>(1905)</span><br>
+                <input type="checkbox" class=check"" id="">Deodorant
+                <span>(1575)</span><br>
+                <hr>
+                <label for="brand">BRAND</label><br>
+                <input type="checkbox" class="check" id="">Pink Plumns
+                <span>(1242)</span><br>
+                <input type="checkbox" class="check" id="">Menjewell
+                <span>(724)</span><br>
+                <input type="checkbox" class="check" id="">MISS ROSE
+                <span>(680)</span><br>
+                <input type="checkbox" class="check" id="">Good Vibes
+                <span>(631)</span><br>
+                <input type="checkbox" class="check" id="">GEMBLUE BioCare
+                <span>(622)</span><br>
+                <input type="checkbox" class="check" id="">Lakme
+                <span>(593)</span><br>
+                <hr>
+                <label for="price">Price</label><br>
+                <input type="checkbox" class="check" id="">Rs. 22 to Rs. 11242
+                <span>(41122)</span><br>
+                <input type="checkbox" class="check" id="">Rs. 11242 to Rs. 22462
+                <span>(18)</span><br>
+                <input type="checkbox" class="check" id="">Rs. 33682 to Rs. 44902
+                <span>(2)</span><br>
+                <hr>
+                <label for="color">COLOR</label><br>
+                <input type="checkbox" class="check" id="">White
+                <span>(5626)</span><br>
+                <input type="checkbox" class="check" id="">Black
+                <span>(3940)</span><br>
+                <input type="checkbox" class="check" id="">Multi 
+                <span>(3631)</span><br>
+                <input type="checkbox" class="check" id="">Pink 
+                <span>(3180)</span><br>
+                <input type="checkbox" class="check" id="">Brown
+                <span>(3095)</span><br>
+                <input type="checkbox" class="check" id="">Green 
+                <span>(2688)</span><br>
+                <hr>
+                <label for="discount-range">DISCOUNT RANGE</label>
+                <input type="checkbox" class="check" id="">10% and above <br>
+                <input type="checkbox" class="check" id="">20% and above <br>
+                <input type="checkbox" class="check" id="">30% and above <br>
+                <input type="checkbox" class="check" id="">40% and above <br>
+                <input type="checkbox" class="check" id="">50% and above <br>
+                <input type="checkbox" class="check" id="">60% and above <br>
+                <input type="checkbox" class="check" id="">70% and above <br>
+            </div>
+            <div class="box">
+                <div class="content-1">
+                    <img src="img/beauty/content-1/img-1.webp" alt="">
+                    <h1>Dove</h1>
+                    <p>Cleaning Shampoo</p>
+                    <p>Rs 265</p>
+                </div>
+                <div class="content-1">
+                    <img src="img/beauty/content-1/img-2.webp" alt="">
+                    <h1>J&J</h1>
+                    <p>Hair Dresser</p>
+                    <p>Rs 499</p>
+                </div>
+                <div class="content-1">
+                    <img src="img/beauty/content-1/img-3.webp" alt="">
+                    <h1>Tresemee</h1>
+                    <p>Conditioner</p>
+                    <p>Rs 300</p>
+                </div>
+                <div class="content-1">
+                    <img src="img/beauty/content-1/img-4.webp" alt="">
+                    <h1>Dove</h1>
+                    <p>Kit</p>
+                    <p>Rs 900</p>
+                </div>
+            </div>
         </div>
         <footer>
             <div class="bottom-1">
